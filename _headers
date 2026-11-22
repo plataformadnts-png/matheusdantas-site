@@ -1,2 +1,4 @@
 /assets/*
   Cache-Control: public, max-age=2592000
+/posts/*
+  Access-Control-Allow-Origin: *
