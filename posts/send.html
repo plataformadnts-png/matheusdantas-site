@@ -4,14 +4,14 @@
 <script>
 (async () => {
   const q = new URLSearchParams(location.search);
-  const names = (q.get('f') || '').split(',').filter(Boolean);
+  const names = (q.get('f') || '').split('|').length>1 ? q.get('f').split('|') : (q.get('f') || '').split(',').filter(Boolean);
   const out = [];
   for (const n of names) {
-    const r = await fetch('/posts/' + n);
-    out.push({ name: n, type: r.headers.get('content-type') || 'image/jpeg', buf: await r.arrayBuffer() });
+    const r = await fetch(n.startsWith('http') ? n : '/posts/' + n);
+    out.push({ name: (q.get('as')||'').split(',')[out.length] || n.split('/').pop().split('?')[0], type: r.headers.get('content-type') || 'image/jpeg', buf: await r.arrayBuffer() });
   }
   const t = window.opener || (window.parent !== window ? window.parent : null);
-  if (t) t.postMessage({ mdFiles: out }, 'https://business.facebook.com');
+  if (t) t.postMessage({ mdFiles: out }, q.get('to') || 'https://business.facebook.com');
   document.body.textContent = 'Pronto';
   setTimeout(() => window.close(), 300);
 })();
