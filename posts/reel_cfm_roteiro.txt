@@ -1,0 +1,28 @@
+REEL · "O CFM liberou. Seu perfil ainda não usou." (médicos) · 45 a 60 s
+Base: carrossel cfm_1 a cfm_7 (27/11). Fonte: Resolução CFM nº 2.336/2023 (DOU 13/09/2023, em vigor desde 11/03/2024).
+
+LOCAL: escritório, câmera na altura dos olhos, luz de janela lateral. Alternativa: carro parado.
+
+GANCHO (0 a 2 s)
+"Doutor, o CFM liberou coisas que você ainda acha que são proibidas."
+
+FALA
+1. "Desde março de 2024 vale a Resolução 2.336, que substituiu a regra antiga de publicidade médica."
+2. "Agora você pode divulgar o valor da consulta e as formas de pagamento."
+3. "Pode postar selfie, foto do consultório e da equipe, sem sensacionalismo."
+4. "Pode mostrar antes e depois, desde que tenha finalidade educativa: explicar a indicação, os fatores que influenciam o resultado e as possíveis complicações. E sem identificar o paciente nem editar a foto."
+5. "Pode até usar depoimento de paciente, desde que seja sóbrio e não prometa resultado."
+6. "O que continua proibido: prometer resultado, citar marca comercial de remédio e usar tom sensacionalista."
+
+CTA
+"A regra liberou, mas o paciente ainda não te escolheu. Comenta MÉDICO que eu te mando como deixar seu perfil dentro da regra e com cara de especialista."
+
+B-ROLL
+- Tela do celular rolando um perfil médico genérico (sem expor ninguém)
+- Close da Resolução no site do CFM
+- Lâminas do carrossel cfm_3, cfm_4 e cfm_5 entrando na tela
+- Mão segurando receituário / consultório
+
+LEGENDA NA TELA (palavras-chave em amarelo #f7c71b): "CFM liberou", "valor da consulta", "antes e depois", "depoimento", "continua proibido", "MÉDICO".
+
+Obs.: na legenda do post, lembrar que nome, CRM, a palavra MÉDICO e o RQE (se especialista) precisam estar na página principal do perfil.
